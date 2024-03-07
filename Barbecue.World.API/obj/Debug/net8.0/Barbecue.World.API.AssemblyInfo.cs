@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Barbecue.World.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76add97b2f4c146268d614937d580b747e9be8c4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef5717446dbc1437708bfc4222b27228038060b6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Barbecue.World.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Barbecue.World.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barbecue.World.API", "Barbecue.World.API\Barbecue.World.API.csproj", "{CC2A0580-80B1-4721-B7D2-19E5B953571D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Barbecue.World.API", "Barbecue.World.API\Barbecue.World.API.csproj", "{CC2A0580-80B1-4721-B7D2-19E5B953571D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barbecure.World.Application", "Barbecure.World.Application\Barbecure.World.Application.csproj", "{6894DBB7-55F9-4CD3-8C12-9ED8BF825403}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barbecue.World.Data", "Barbecue.World.Data\Barbecue.World.Data.csproj", "{71454714-3D23-4793-89F1-79E62BACD53A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barbecue.World.Domain", "Barbecue.World.Domain\Barbecue.World.Domain.csproj", "{696A3E85-09DB-4C3E-A876-FFFA8F80EF46}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{CC2A0580-80B1-4721-B7D2-19E5B953571D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC2A0580-80B1-4721-B7D2-19E5B953571D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC2A0580-80B1-4721-B7D2-19E5B953571D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6894DBB7-55F9-4CD3-8C12-9ED8BF825403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6894DBB7-55F9-4CD3-8C12-9ED8BF825403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6894DBB7-55F9-4CD3-8C12-9ED8BF825403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6894DBB7-55F9-4CD3-8C12-9ED8BF825403}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71454714-3D23-4793-89F1-79E62BACD53A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71454714-3D23-4793-89F1-79E62BACD53A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71454714-3D23-4793-89F1-79E62BACD53A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71454714-3D23-4793-89F1-79E62BACD53A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{696A3E85-09DB-4C3E-A876-FFFA8F80EF46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{696A3E85-09DB-4C3E-A876-FFFA8F80EF46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{696A3E85-09DB-4C3E-A876-FFFA8F80EF46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{696A3E85-09DB-4C3E-A876-FFFA8F80EF46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
