@@ -1,5 +1,5 @@
 ﻿using Barbecue.World.Domain.Models;
-using Barbecure.World.Application.Barbecue;
+using Barbecue.World.Application.Barbecue;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Barbecue.World.API.Controllers
@@ -15,11 +15,16 @@ namespace Barbecue.World.API.Controllers
             _barbecureApplication = barbecureApplication;
         }
 
-        [HttpGet("teste")]
-        public async Task<Countries> Teste(int numero, string pais)
+        [HttpGet("Discover")]
+        public async Task<Result> Discover(string country)
         {
-            return await _barbecureApplication.Teste(numero, pais);
-            //return Ok(new List<Countries> { result });
+            return await _barbecureApplication.Discover(country);
+        }
+
+        [HttpPost("Add/Barbecue")]
+        public async Task<bool> AddBarbecue(CountriesData info)
+        {
+            return await _barbecureApplication.AddBarbecue(info);
         }
     }
 }

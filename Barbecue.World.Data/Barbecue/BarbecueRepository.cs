@@ -1,8 +1,6 @@
 ﻿using Barbecue.World.Data.DB;
 using Barbecue.World.Domain.Models;
 using Microsoft.EntityFrameworkCore;
-using System.Diagnostics.Metrics;
-using System.Xml;
 
 namespace Barbecue.World.Data.Barbecue
 {
@@ -17,10 +15,26 @@ namespace Barbecue.World.Data.Barbecue
             _context = context;
         }
 
-        public async Task<Countries> Teste(string pais)
+        public async Task<Countries> CountryDetails(string country)
         {
-            var query = "SELECT * FROM countries WHERE Country = @Country";
-            return await _context.Countries.FromSqlRaw(query, pais).FirstOrDefaultAsync();
+            var query = "SELECT * FROM countries WHERE Country = {0}";
+            return await _context.Countries.FromSqlRaw(query, country).FirstOrDefaultAsync();
+        }
+
+        public async Task<bool> AddBarbecue(Countries info)
+        {
+            try
+            {
+                _context.Countries.Add(info);
+
+                await _context.SaveChangesAsync();
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
     }
 }

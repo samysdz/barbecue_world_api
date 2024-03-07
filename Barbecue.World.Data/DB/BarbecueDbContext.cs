@@ -1,6 +1,7 @@
 ﻿using Barbecue.World.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Xml;
+using System.IO;
 
 namespace Barbecue.World.Data.DB
 {
@@ -10,8 +11,8 @@ namespace Barbecue.World.Data.DB
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            string dbFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "DB", "db_barbecue_world.db");
-            optionsBuilder.UseSqlite("Data Source={dbFilePath}"); // Connection string for SQLite
+            string dbFilePath = Environment.GetEnvironmentVariable("DB_Path_Barbecue");
+            optionsBuilder.UseSqlite($"Data Source={dbFilePath}");
         }
     }
 

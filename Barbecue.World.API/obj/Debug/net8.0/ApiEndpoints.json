@@ -1,0 +1,54 @@
+[
+  {
+    "ContainingType": "Barbecue.World.API.Controllers.BarbecueController",
+    "Method": "AddBarbecue",
+    "RelativePath": "Barbecue/Add/Barbecue",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "info",
+        "Type": "Barbecue.World.Domain.Models.CountriesData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Barbecue.World.API.Controllers.BarbecueController",
+    "Method": "Discover",
+    "RelativePath": "Barbecue/Discover",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "country",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Barbecue.World.Domain.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

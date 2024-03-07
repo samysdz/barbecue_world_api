@@ -7,10 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="{dbFilePath}" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Barbecue.World.Application\Barbecue.World.Application.csproj" />
     <ProjectReference Include="..\Barbecure.World.Application\Barbecure.World.Application.csproj" />
   </ItemGroup>
 

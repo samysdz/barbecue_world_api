@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Barbecue.World.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef5717446dbc1437708bfc4222b27228038060b6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85ce5554aad1c6641edf707ff1cd8a42628cd498")]
 [assembly: System.Reflection.AssemblyProductAttribute("Barbecue.World.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Barbecue.World.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pRdm0QGkvY8kc6XEL5YCzaAEl4LpJ5wOLOvSskvsvis=",
+  "Hash": "L5nfoD+hlS/DQI679q10akJzhlM9T35xq8m0C1psN7g=",
   "Source": "Barbecue.World.API",
   "BasePath": "_content/Barbecue.World.API",
   "Mode": "Default",
@@ -16,44 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\projetos_github\\barbecue_world_api\\Barbecue.World.API\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Barbecue.World.API.styles.css",
-      "SourceId": "Barbecue.World.API",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\projetos_github\\barbecue_world_api\\Barbecue.World.API\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/Barbecue.World.API",
-      "RelativePath": "Barbecue.World.API.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\projetos_github\\barbecue_world_api\\Barbecue.World.API\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Barbecue.World.API.styles.css"
-    },
-    {
-      "Identity": "C:\\projetos_github\\barbecue_world_api\\Barbecue.World.API\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Barbecue.World.API.bundle.scp.css",
-      "SourceId": "Barbecue.World.API",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\projetos_github\\barbecue_world_api\\Barbecue.World.API\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/Barbecue.World.API",
-      "RelativePath": "Barbecue.World.API.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\projetos_github\\barbecue_world_api\\Barbecue.World.API\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Barbecue.World.API.bundle.scp.css"
-    },
     {
       "Identity": "C:\\projetos_github\\barbecue_world_api\\Barbecue.World.API\\wwwroot\\css\\site.css",
       "SourceId": "Barbecue.World.API",

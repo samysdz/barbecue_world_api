@@ -1,7 +1,6 @@
+using Barbecue.World.Application.Barbecue;
 using Barbecue.World.Data.Barbecue;
 using Barbecue.World.Data.DB;
-using Barbecure.World.Application.Barbecue;
-using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 

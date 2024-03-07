@@ -39,10 +39,10 @@ C:\projetos_github\barbecue_world_api\Barbecue.World.API\bin\Debug\net8.0\runtim
 C:\projetos_github\barbecue_world_api\Barbecue.World.API\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\projetos_github\barbecue_world_api\Barbecue.World.API\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\projetos_github\barbecue_world_api\Barbecue.World.API\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\projetos_github\barbecue_world_api\Barbecue.World.API\bin\Debug\net8.0\Barbecue.World.Application.dll
 C:\projetos_github\barbecue_world_api\Barbecue.World.API\bin\Debug\net8.0\Barbecue.World.Data.dll
 C:\projetos_github\barbecue_world_api\Barbecue.World.API\bin\Debug\net8.0\Barbecue.World.Domain.dll
-C:\projetos_github\barbecue_world_api\Barbecue.World.API\bin\Debug\net8.0\Barbecure.World.Application.dll
-C:\projetos_github\barbecue_world_api\Barbecue.World.API\bin\Debug\net8.0\Barbecure.World.Application.pdb
+C:\projetos_github\barbecue_world_api\Barbecue.World.API\bin\Debug\net8.0\Barbecue.World.Application.pdb
 C:\projetos_github\barbecue_world_api\Barbecue.World.API\bin\Debug\net8.0\Barbecue.World.Data.pdb
 C:\projetos_github\barbecue_world_api\Barbecue.World.API\bin\Debug\net8.0\Barbecue.World.Domain.pdb
 C:\projetos_github\barbecue_world_api\Barbecue.World.API\obj\Debug\net8.0\Barbecue.World.API.csproj.AssemblyReference.cache
@@ -52,8 +52,6 @@ C:\projetos_github\barbecue_world_api\Barbecue.World.API\obj\Debug\net8.0\Barbec
 C:\projetos_github\barbecue_world_api\Barbecue.World.API\obj\Debug\net8.0\Barbecue.World.API.csproj.CoreCompileInputs.cache
 C:\projetos_github\barbecue_world_api\Barbecue.World.API\obj\Debug\net8.0\Barbecue.World.API.MvcApplicationPartsAssemblyInfo.cs
 C:\projetos_github\barbecue_world_api\Barbecue.World.API\obj\Debug\net8.0\Barbecue.World.API.MvcApplicationPartsAssemblyInfo.cache
-C:\projetos_github\barbecue_world_api\Barbecue.World.API\obj\Debug\net8.0\Barbecue.World.API.RazorAssemblyInfo.cache
-C:\projetos_github\barbecue_world_api\Barbecue.World.API\obj\Debug\net8.0\Barbecue.World.API.RazorAssemblyInfo.cs
 C:\projetos_github\barbecue_world_api\Barbecue.World.API\obj\Debug\net8.0\Barbecue.World.API.sourcelink.json
 C:\projetos_github\barbecue_world_api\Barbecue.World.API\obj\Debug\net8.0\staticwebassets.build.json
 C:\projetos_github\barbecue_world_api\Barbecue.World.API\obj\Debug\net8.0\staticwebassets.development.json
@@ -62,9 +60,7 @@ C:\projetos_github\barbecue_world_api\Barbecue.World.API\obj\Debug\net8.0\static
 C:\projetos_github\barbecue_world_api\Barbecue.World.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Barbecue.World.API.props
 C:\projetos_github\barbecue_world_api\Barbecue.World.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Barbecue.World.API.props
 C:\projetos_github\barbecue_world_api\Barbecue.World.API\obj\Debug\net8.0\staticwebassets.pack.json
-C:\projetos_github\barbecue_world_api\Barbecue.World.API\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 C:\projetos_github\barbecue_world_api\Barbecue.World.API\obj\Debug\net8.0\scopedcss\bundle\Barbecue.World.API.styles.css
-C:\projetos_github\barbecue_world_api\Barbecue.World.API\obj\Debug\net8.0\scopedcss\projectbundle\Barbecue.World.API.bundle.scp.css
 C:\projetos_github\barbecue_world_api\Barbecue.World.API\obj\Debug\net8.0\Barbecue.6AE7070A.Up2Date
 C:\projetos_github\barbecue_world_api\Barbecue.World.API\obj\Debug\net8.0\Barbecue.World.API.dll
 C:\projetos_github\barbecue_world_api\Barbecue.World.API\obj\Debug\net8.0\refint\Barbecue.World.API.dll

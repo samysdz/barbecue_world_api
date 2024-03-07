@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\projetos_github\\barbecue_world_api\\Barbecue.World.API\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Barbecue.World.API.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Barbecue.World.API.bundle.scp.css"
-    },
-    {
       "Id": "C:\\projetos_github\\barbecue_world_api\\Barbecue.World.API\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
