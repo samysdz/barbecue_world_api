@@ -16,13 +16,13 @@ namespace Barbecue.World.API.Controllers
         }
 
         [HttpGet("Discover")]
-        public async Task<Result> Discover(string country)
+        public async Task<Result> Discover([FromQuery] string country)
         {
             return await _barbecureApplication.Discover(country);
         }
 
         [HttpPost("Add/Barbecue")]
-        public async Task<bool> AddBarbecue(CountriesData info)
+        public async Task<bool> AddBarbecue([FromBody]CountriesData info)
         {
             return await _barbecureApplication.AddBarbecue(info);
         }

@@ -12,7 +12,7 @@ namespace Barbecue.World.Application.Barbecue
             _barbecueRepository = barbecueRepository;
         }
 
-        public async Task<Result> Discover(string country) // Updated return type to Task<int>
+        public async Task<Result> Discover(string country)
         {
             TextInfo textInfo = CultureInfo.CurrentCulture.TextInfo;
 
