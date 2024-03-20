@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\Barbecue.World.API.props" />
-</Project>

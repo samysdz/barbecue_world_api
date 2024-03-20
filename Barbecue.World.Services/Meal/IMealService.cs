@@ -8,5 +8,6 @@ namespace Barbecue.World.Services.Meal
 {
     public interface IMealService
     {
+        Task<string> ApiMeal();
     }
 }
