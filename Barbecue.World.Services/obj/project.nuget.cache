@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "BnHIC3nLgh9esNYMb4gf328aLE3HD/hp1maRiIDhOwRHxHjddEE/sg7K7GuYFjpmA+yKZ16HCGrOd7dH/ULSBw==",
+  "success": true,
+  "projectFilePath": "C:\\projetos_github\\barbecue_world_api\\Barbecue.World.Services\\Barbecue.World.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cadud\\.nuget\\packages\\restsharp\\110.2.0\\restsharp.110.2.0.nupkg.sha512",
+    "C:\\Users\\cadud\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\cadud\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
